@@ -78,6 +78,10 @@ h1 {
     
 }
 
+.badge-text-bg-primary {
+    color: #f5f6f7;
+}
+
 .experiencia {
    
     padding: 40px 40px 60px 40px;
@@ -87,8 +91,8 @@ h1 {
 
 .experiencia i {
     font-size: 2.5rem;
-    color: #7ade30;
-    background-color: #0a0a23;
+    color: #cdde30;
+    background-color: #303035;
     padding: 8px 19px;
     border-radius: 50%;
     text-align: center;
@@ -111,8 +115,8 @@ h1 {
 }
 
 .experiencia .columna:hover {
-    color: #686c70;
-    background-color: #151511;
+    color: #0c0c0d;
+    background-color: #a2a246;
     
 }
 
@@ -120,11 +124,16 @@ h1 {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
+    color: #454540;
 }
 
 .badge {
     margin: 5px;
+    color: #a2a246;
 } 
+
+
+
 
 .proyecto {
     position: relative;
@@ -167,6 +176,7 @@ h1 {
 
 .overlay .iconos-contenedor {
     display: flex;
+   
 }
 
 .overlay i {
@@ -190,22 +200,23 @@ h1 {
 }
 
 .texto-negro {
-    color: #151511;
+    color: #434340;
 }
 
 .texto-blanco {
-    color: aliceblue;
+    color:white;
 }
 
 .articulos {
     padding: 40px;
     min-height: 500px;
+    color: #0e0e0b;
 }
 
 .articulos .card {
    width: 80%; 
    margin: 20px;
-   max-width: 600px;
+   max-width: 500px;
 }
 
 .articulos .card-header {
@@ -215,14 +226,17 @@ h1 {
 /*testimonios*/
 .testimonios {
     padding: 40px 40px 80px 40px;
+    color: #151511;
 }
 
 .testimonios .carousel {
     max-width: 800px;
+    color: #151511;
 }
 
 .testimonios-item {
     height: 500px;
+    color: #151511;
 }
 
 .carousel-item .container {
@@ -244,20 +258,151 @@ h1 {
     max-width: 70%;
     font-size: 20px;
     text-align: center;
+    color: #151511;
 }
+
 
 .testimonio-info p {
     margin-bottom: 0;
+    color: #151511;
 }
 
 .testimonio-footer .cliente {
     font-size: 1.2rem;
+    color: #151511;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    
 }
+
+.descripcion {
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    height: 100%; /* Ajustar la altura del contenedor al 100% */
+}
+
+
 
 .testimonio-info .cargo {
     font-size: 0.9rem;
-    color: #686c70;
+    color: #171818;
 }
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+   min-height: 80px;
+   margin-top: -10rem;
+   background-color: rgb(23, 25, 27);
+   border-radius: 10px;
+   box-shadow: 0px 1px 4px 1px white;
+   
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+.contacto .descripcion {
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center; /* Alineación horizontal al centro */
+    text-align: center; /* Centra el texto horizontalmente dentro del contenedor */
+    /* No se especifica align-items para mantener la alineación vertical actual */
+}
+
+
+
+
+.contacto button {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button i {
+    
+    color: white;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+footer {
+    height: 160px; /* Aumentamos la altura del footer para acomodar el icono más grande */
+    width: 100%; /* Cambiamos el ancho a 100% para que ocupe todo el ancho disponible */
+    display: flex;
+    justify-content: space-between; /* Distribuir elementos en el footer */
+    align-items: center; /* Centrar verticalmente los elementos */
+    padding: 10px; /* Añadimos espaciado horizontal para separar los elementos del borde */
+    background-color: #333; /* Cambiamos el color de fondo del footer */
+    color: white;
+}
+
+.footer-logo {
+    height: 1cm; /* Tamaño del icono 1cm x 1cm */
+    width: 1cm;
+    margin-right: 10px; /* Espaciado entre el icono y el texto */
+}
+
+.footer-texto {
+    font-size: 0.8rem; /* Reducimos el tamaño de la fuente del texto */
+    font-family: sans-serif;
+    margin-bottom: 20px; /* Agregamos espacio vertical debajo del texto */
+}
+
+.iconos-redes-sociales {
+   
+    display: flex;
+    gap: 10px; /* Espacio horizontal entre los iconos */
+}
+
+.iconos-redes-sociales a {
+    width: 1cm; /* Tamaño del icono 1cm x 1cm */
+    height: 1cm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: all 0.2s ease-in-out;
+}
+
+.iconos-redes-sociales i {
+    color: antiquewhite;
+    font-size: 1.2rem; /* Tamaño del icono ajustado */
+    transition: all 0.2s ease-in;
+   
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: white;
+    border: 2px solid rgb(74, 112, 166);
+   
+}
+
+.iconos-redes-sociales a:hover i {
+   
+    color: black;
+}
+
 
 /*adaptable responsivo*/
 @media screen and (max-width: 768px) {
@@ -265,6 +410,21 @@ h1 {
         display: none;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .testimopnio-imagen {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+.testimonio-texto {
+   font-size: 18px;
+   align-items: center;
+    justify-content: flex-end;
+}
+
+
 @media screen and (min-width: 700px) {
     .hero-inferior-imagen {
         max-width: 600px;
